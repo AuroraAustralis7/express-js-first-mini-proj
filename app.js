@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 
 app.use(express.static("public"))
 
-// home page stuff
+// home page stuff yes
 
 app.get("/", (req, res) => {
     res.render("homePage", {source: "/ryan_gosling1.jpg", });
